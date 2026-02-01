@@ -1,0 +1,19 @@
+pour lancer le projet faire les commandes suivantes : 
+
+
+- docker-compose up -d mlflow prometheus grafana
+
+- docker-compose run --rm train
+
+- docker-compose up -d api
+
+pour accéder aux services :
+
+- API: http://localhost:8000
+- Grafana: http://localhost:3000
+- Prometheus: http://localhost:9090
+- MLflow: http://localhost:5000
+ 
+Pour se connecter à grafana untilisez admin en utilisateur et mdp
+
+sur prometheus vous pouvez ajouter la requete suivante "sum(http_requests_total)" pour le nombre totale de requetes a l'api

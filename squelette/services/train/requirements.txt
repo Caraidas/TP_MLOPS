@@ -1,0 +1,4 @@
+tensorflow>=2.10
+mlflow>=2.10.2
+prometheus-client>=0.16
+pillow>=9.0
